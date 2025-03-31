@@ -6,6 +6,9 @@
     "url": "https://github.com/YuanG1944"
   },
   "publisher": "YuanG1944",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "displayName": "color2color",
   "description": "A VSCode extension for converting between RGB and Hex.",
   "version": "0.0.1",
@@ -76,6 +79,7 @@
     "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
+    "publish": "pnpm vsce publish --no-dependencies",
     "test": "vscode-test"
   },
   "devDependencies": {
