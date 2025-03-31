@@ -1,16 +1,20 @@
 {
   "name": "color2color",
+  "author": {
+    "name": "YuanG",
+    "email": "3711115609@qq.com",
+    "url": "https://github.com/YuanG1944"
+  },
+  "publisher": "YuanG1944",
   "displayName": "color2color",
-  "description": "",
+  "description": "A VSCode extension for converting between RGB and Hex.",
   "version": "0.0.1",
+  "icon": "public/plugin-icon.png",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Other"
-  ],
-  "activationEvents": [
-    "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {
