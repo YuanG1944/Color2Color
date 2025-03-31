@@ -80,7 +80,8 @@
     "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "vsce-package": "pnpm vsce package --no-dependencies"
   },
   "devDependencies": {
     "@types/vscode": "^1.98.0",
