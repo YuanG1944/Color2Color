@@ -7,10 +7,10 @@ A VSCode extension for converting between RGB and Hex.
 ## How to use
 
 1.Using codeLens
-![paste](./public/code-lens-convert.gif)
+![paste](public/code-lens-convert.gif)
 
 2.Using Right click
-![paste](./public/select-convert.gif)
+![paste](public/select-convert.gif)
 
 ## Default Config
 
